@@ -44,6 +44,33 @@ img {
     font-size: 60px;
     border-radius: 5px;
   }
+
+.hero .container {
+    display: flex;
+  }
+
+  .hero .container-sm .bg-primary {
+    animation: showup 4s;
+    animation-iteration-count: 1;
+  }
+
+  .hero .container-sm {
+    animation: slidein 4s;
+    animation-iteration-count: 1;
+  }
+  
+
+  @keyframes slidein {
+    0% { margin-left:-1000px; }
+    100% { margin-left:225px; justify-content: center; }
+  }
+
+  @keyframes showup {
+   0% {opacity:0;}
+   20% {opacity:0.2;}
+   80% {opacity:0.6;}
+   100% {opacity:1;}
+  }
   
   .bg-dark {
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
