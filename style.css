@@ -47,6 +47,7 @@ img {
 
 .hero .container {
     display: flex;
+    flex-direction: row;
   }
 
   .hero .container-sm .bg-primary {
