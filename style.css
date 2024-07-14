@@ -141,7 +141,17 @@ img {
     margin-bottom: 9px;
   }
 
-  .team .container-lg .team-flex .team-item {
+ .team .container-lg .team-flex .team1 {
+    color:darkviolet;
+    font-weight: bolder;
+  }
+
+  .team .container-lg .team-flex .team2 {
+    color:darkviolet;
+    font-weight: bolder;
+  }
+
+  .team .container-lg .team-flex .team3 {
     color:rgb(0, 89, 255);
     font-weight: bolder;
   }
