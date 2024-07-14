@@ -294,10 +294,16 @@ img {
   .footer .footer-flex {
     text-align: center;
   }
+    
   .footer img {
     background-color: white;
     border: none;
     border-radius: 5px;
     box-shadow: rgb(255, 255, 255) 0px 3px 10px;
+  }
+
+    @keyframes slidein {
+    0% { margin-left:-1000px; }
+    100% { margin-left: 40px; justify-content: center; }
   }
 }
