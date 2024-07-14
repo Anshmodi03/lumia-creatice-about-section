@@ -124,8 +124,11 @@ img {
   }
   
   .header .main-menu a {
-    padding: 5px;
+    padding: 10px;
     margin-right: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
   }
   
   .header .main-menu a:hover {
@@ -140,6 +143,12 @@ img {
     transition-delay: 0.1s;
     
   }
+
+  .current {
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    padding: 20px;
+    color:darkslategrey;
 
   .hero {
     height: 500px;
